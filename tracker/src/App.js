@@ -11,7 +11,8 @@ export default function App() {
         }}
       >
         <Link to="/invoices">Vlogger Tracker</Link> |{" "}
-        <Link to="/expenses">Expenses</Link>
+        <Link to="/expenses">Expenses</Link>  |{" "}
+        <Link to="/fanstrend">FansTrend</Link>
       </nav>
       <Outlet />
     </div>
