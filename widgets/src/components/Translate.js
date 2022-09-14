@@ -11,6 +11,22 @@ const options = [
     label: 'Chinese',
     value: 'zh-CN',
   },
+  {
+    label: 'Spanish',
+    value: 'es',
+  },
+  {
+    label: 'French',
+    value: 'fr',
+  },
+  {
+    label: 'Japanese',
+    value: 'ja',
+  },
+  {
+    label: 'Germany',
+    value: 'de',
+  },
 
 ];
 
