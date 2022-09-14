@@ -13,9 +13,7 @@ const Header = () => {
       <Link href="/list" className="item">
         Wikipedia Search
       </Link>
-      <Link href="/dropdown" className="item">
-        Dropdown
-      </Link>
+
     
     </div>
   );

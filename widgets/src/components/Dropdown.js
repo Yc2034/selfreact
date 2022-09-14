@@ -12,7 +12,7 @@ const Dropdown = ({ label, options, selected, onSelectedChange }) => {
       setOpen(false);
     };
     document.body.addEventListener("click", onBodyClick, { capture: true });
-
+ 
     return () => {
       document.body.removeEventListener("click", onBodyClick, {
         capture: true,
