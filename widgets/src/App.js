@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Accordion from "./components/Accordion";
-import Search from "./components/Search";
+import WikiSearch from "./components/WikiSearch";
 import Dropdown from "./components/Dropdown";
 import Translate from "./components/Translate";
 import Route from "./components/Route";
@@ -46,7 +46,7 @@ const App = () => {
         <Accordion items={items} />
       </Route>
       <Route path="/list">
-        <Search />
+        <WikiSearch />
       </Route>
       <Route path="/dropdown">
         <Dropdown
