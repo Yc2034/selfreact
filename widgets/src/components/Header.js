@@ -13,6 +13,9 @@ const Header = () => {
       <Link href="/list" className="item">
         Wikipedia Search
       </Link>
+      <Link href="/calculate" className="item">
+        Calculator
+      </Link>
 
     
     </div>

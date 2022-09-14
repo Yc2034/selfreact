@@ -5,7 +5,8 @@ import Dropdown from "./components/Dropdown";
 import Translate from "./components/Translate";
 import Route from "./components/Route";
 import Header from "./components/Header";
-import Musiclist from "./components/Musiclist"
+import Musiclist from "./components/Musiclist";
+import Calculator from "./components/Calculator";
 
 
 
@@ -22,6 +23,9 @@ const App = () => {
       </Route>
       <Route path="/translate">
         <Translate />
+      </Route>
+      <Route path="/calculate">
+        <Calculator />
       </Route>
     </div>
   );
