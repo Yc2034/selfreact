@@ -43,7 +43,7 @@ const Search = () => {
             className="ui button"
             href={`https://en.wikipedia.org?curid=${result.pageid}`}
           >
-            Go
+            Link
           </a>
         </div>
         <div className="content">
@@ -58,7 +58,7 @@ const Search = () => {
     <div>
       <div className="ui form">
         <div className="field">
-          <label>Enter Search Term</label>
+          <label>What you want to Search</label>
           <input
             value={term}
             onChange={(e) => setTerm(e.target.value)}

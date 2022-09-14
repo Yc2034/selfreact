@@ -4,21 +4,14 @@ import Convert from './Convert';
 
 const options = [
   {
-    label: 'Afrikaans',
-    value: 'af',
+    label: 'English',
+    value: 'en',
   },
   {
-    label: 'Arabic',
-    value: 'ar',
+    label: 'Chinese',
+    value: 'zh-CN',
   },
-  {
-    label: 'Hindi',
-    value: 'hi',
-  },
-  {
-    label: 'Dutch',
-    value: 'nl',
-  },
+
 ];
 
 const Translate = () => {
