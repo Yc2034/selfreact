@@ -27,3 +27,27 @@ const turtle = {
     shell: true,
     diet: 'berries'
 }
+
+function feed( {name, meal,diet} ) {
+    return 'Feed ${name} ${meal} kilos of ${diet}';
+}
+
+// or
+
+function feed(animal) {
+    const {name, meal, diet } = animal;
+    return 'Feed ${name} ${meal} kilos of ${diet}';
+
+}
+
+// template literal
+const {name, meal, diet } = animal;
+
+bil = '${name} is a ${meal} good ${diet}';
+
+function horseAge(str, age) {
+    const ageStr = age > 5 ? 'old' : 'young';
+    return `${str[0]}${ageStr} at ${age} years`;
+}
+
+const bio2 = horseAge`This horse is ${horse.age}`;
