@@ -51,3 +51,37 @@ function horseAge(str, age) {
 }
 
 const bio2 = horseAge`This horse is ${horse.age}`;
+
+// spread syntax
+
+const pikachu = { name: 'Pikachu'};
+const stats = { hp: 40, attack: 60, defense: 45};
+
+const lvl0 = {...pikachu, ...stats}
+const lvl1 = {...pikachu, hp:45}
+
+let pokemon = ['aaa','vvv'];
+
+pokemon = [...pokemon,'ccc','ddd']
+pokemon = ['fff', ...pokemon,'ccc','ddd']
+
+
+// loops
+const orders = [500, 30, 99, 15, 223]
+
+const total = orders.reduce((acc, cur) => acc + cur)
+
+const withTax = orders.map(v = v*1.1)
+
+const highValue = orders.filter( v = v> 100)
+
+
+// async-await
+
+const sumRandom = async() => {
+    const first = await random();
+    const second = await random();
+    const third = await random();
+
+    console.log(`Result ${first + second + third}`);
+}
