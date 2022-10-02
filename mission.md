@@ -13,3 +13,5 @@ video clipping
 
 
 V2 combine web with methodology
+
+npm install --legacy-peer-deps
