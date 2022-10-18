@@ -45,7 +45,7 @@ export const lineCustomSeries = [
 
 export const LinePrimaryXAxis = {
   valueType: 'DateTime',
-  labelFormat: 'yM',
+  labelFormat: 'yMM',
   intervalType: 'Auto',
   edgeLabelPlacement: 'Shift',
   majorGridLines: { width: 0 },
