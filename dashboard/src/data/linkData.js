@@ -62,17 +62,13 @@ export const links = [
           name: 'line',
           icon: <AiOutlineStock />,
         },
-        {
-          name: 'area',
-          icon: <AiOutlineAreaChart />,
-        },
   
         {
           name: 'pie',
           icon: <FiPieChart />,
         },
         {
-          name: 'color-mapping',
+          name: 'weather',
           icon: <BsBarChart />,
         },
         {
