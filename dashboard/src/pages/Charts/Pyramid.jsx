@@ -1,7 +1,7 @@
 import React from 'react';
 import { AccumulationChartComponent, AccumulationSeriesCollectionDirective, AccumulationSeriesDirective, Inject, AccumulationLegend, AccumulationDataLabel, AccumulationTooltip, PyramidSeries, AccumulationSelection } from '@syncfusion/ej2-react-charts';
 
-import { PyramidData } from '../../data/dummy';
+import { PyramidData } from '../../data/pyramidData';
 import { useStateContext } from '../../contexts/ContextProvider';
 import { ChartsHeader } from '../../components';
 
@@ -10,7 +10,7 @@ const Pyramid = () => {
 
   return (
     <div className="m-4 md:m-10 mt-24  p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl">
-      <ChartsHeader category="Pyramid" title="Food Comparison Chart" />
+      <ChartsHeader category="Pyramid" title="视频组成" />
       <div className="w-full">
         <AccumulationChartComponent
           id="pyramid-chart"
