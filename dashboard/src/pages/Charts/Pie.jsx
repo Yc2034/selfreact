@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { pieChartData } from '../../data/pieChartData';
+import { pieChartData} from '../../data/pieChartData';
 import { ChartsHeader, Pie as PieChart } from '../../components';
 
 const Pie = () => (
@@ -10,6 +10,7 @@ const Pie = () => (
       <PieChart id="chart-pie" data={pieChartData} legendVisiblity height="full" />
     </div>
   </div>
+
 );
 
 export default Pie;

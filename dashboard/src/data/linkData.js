@@ -35,28 +35,16 @@ export const links = [
       ],
     },
     {
-      title: 'Apps',
+      title: 'Published Themes',
       links: [
         {
-          name: 'calendar',
-          icon: <AiOutlineCalendar />,
-        },
-        {
-          name: 'kanban',
+          name: 'topics',
           icon: <BsKanban />,
-        },
-        {
-          name: 'editor',
-          icon: <FiEdit />,
-        },
-        {
-          name: 'color-picker',
-          icon: <BiColorFill />,
-        },
+        }
       ],
     },
     {
-      title: 'Charts',
+      title: 'Fans Charts',
       links: [
         {
           name: 'line',
@@ -78,11 +66,8 @@ export const links = [
         {
           name: 'pyramid',
           icon: <GiLouvrePyramid />,
-        },
-        {
-          name: 'stacked',
-          icon: <AiOutlineBarChart />,
-        },
+        }
+     
       ],
     },
   ];
