@@ -6,7 +6,7 @@ import { Header } from '../components';
 
 const Kanban = () => (
   <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
-    <Header category="App" title="Kanban" />
+    <Header category="App" title="更新的主题和系列--花朵，三丽鸥，动物etc" />
     <KanbanComponent
       id="kanban"
       keyField="Status"
