@@ -11,7 +11,7 @@ export const links = [
       title: 'Dashboard',
       links: [
         {
-          name: 'fansDashboard',
+          name: 'ecommerce',
           icon: <FiShoppingBag />,
         },
       ],
