@@ -10,7 +10,7 @@ const Pyramid = () => {
 
   return (
     <div className="m-4 md:m-10 mt-24  p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl">
-      <ChartsHeader category="Pyramid" title="视频组成" />
+      <ChartsHeader category="Pyramid" title="视频创作流程" />
       <div className="w-full">
         <AccumulationChartComponent
           id="pyramid-chart"
