@@ -10,11 +10,12 @@ export const kanbanGrid = [
   { headerText: '已更完',
     keyField: 'Testing',
     allowToggle: true,
-    isExpanded: false },
+    isExpanded: true },
 
   { headerText: '已停更',
     keyField: 'Close',
-    allowToggle: true },
+    allowToggle: true,
+    isExpanded: false  },
 ];
 
 export const kanbanData = [

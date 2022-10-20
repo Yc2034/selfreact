@@ -12,12 +12,16 @@ const Kanban = () => (
       keyField="Status"
       dataSource={kanbanData}
       cardSettings={{ contentField: 'Summary', headerField: 'Id' }}
+      swimlaneSettings={{ keyField: "Assignee" , allowDragAndDrop: true }}
+      
     >
       <ColumnsDirective>
         {/* eslint-disable-next-line react/jsx-props-no-spreading */}
         {kanbanGrid.map((item, index) => <ColumnDirective key={index} {...item} />)}
       </ColumnsDirective>
     </KanbanComponent>
+
+    
   </div>
 );
 
