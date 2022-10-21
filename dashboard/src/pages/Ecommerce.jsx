@@ -5,7 +5,8 @@ import { IoIosMore } from 'react-icons/io';
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
 
 import {  Pie, Button, LineChart, SparkLine } from '../components';
-import { earningData, medicalproBranding, recentTransactions, weeklyStats, dropdownData, SparklineAreaData, ecomPieChartData } from '../data/dummy';
+import { earningData, medicalproBranding, recentTransactions, weeklyStats, dropdownData, SparklineAreaData } from '../data/dummy';
+import { pieChartData}  from '../data/pieChartData';
 import { useStateContext } from '../contexts/ContextProvider';
 import product9 from '../data/product9.jpg';
 
@@ -137,12 +138,12 @@ const Ecommerce = () => {
 
           <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl md:w-400 p-8 m-3 flex justify-center items-center gap-10">
             <div>
-              <p className="text-2xl font-semibold ">$43,246</p>
-              <p className="text-gray-400">Yearly sales</p>
+              <p className="text-2xl font-semibold ">粉丝年龄</p>
+              <p className="text-gray-400">小红书</p>
             </div>
 
             <div className="w-40">
-              <Pie id="pie-chart" data={ecomPieChartData} legendVisiblity={false} height="160px" />
+              <Pie id="pie-chart" data={pieChartData} legendVisiblity={false} height="160px" />
             </div>
           </div>
         </div>
@@ -292,7 +293,7 @@ const Ecommerce = () => {
         </div>
         <div className="w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
           <div className="flex justify-between">
-            <p className="text-xl font-semibold">Daily Activities</p>
+            <p className="text-xl font-semibold">自媒体创作</p>
             <button type="button" className="text-xl font-semibold text-gray-500">
               <IoIosMore />
             </button>
@@ -304,11 +305,13 @@ const Ecommerce = () => {
               alt=""
             />
             <div className="mt-8">
-              <p className="font-semibold text-lg">React 18 coming soon!</p>
-              <p className="text-gray-400 ">By Johnathan Doe</p>
+              <p className="font-semibold text-lg">偷 是成为大师的第一步</p>
+              <p className="text-gray-400 ">路径依赖 建立试听期待</p>
               <p className="mt-8 text-sm text-gray-400">
-                This will be the small description for the news you have shown
-                here. There could be some great info.
+              高端品牌要隐约带点伤感，悲天悯人的感觉。
+              中端品牌要温柔，让人与世界和解。
+              低端品牌要欢快，就是乐。
+              入门级品牌要屌，愤怒，挑翻操蛋的世界。
               </p>
               <div className="mt-3">
                 <Button

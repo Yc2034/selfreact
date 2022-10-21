@@ -1,9 +1,16 @@
-# Build and Deploy a React Admin Dashboard App With Theming, Tables, Charts, Calendar, Kanban and More
-![Shoppy](https://i.ibb.co/W6g39w3/image.png)
+## TODO
+1 Vlogger
+Add more data, figure
 
-## Introduction
-This is a code repository for the corresponding video tutorial.
+2 Hottopics
+Add schema, collect hot topics information
 
-If you want to get a finished, highly customizable Material UI version of a similar dashboard, check out [Flexy React Material Dashboard](https://www.wrappixel.com/templates/flexy-react-material-dashboard-admin/?ref=257&campaign=Flexy).
+3 customers --> Change to music
+Music for self media
 
-## Launch your development career with project-based coaching - https://www.jsmastery.pro
+4 Ecommerce 
+More features
+  1  
+  2  更新数据图表
+  3  自媒体创作信息
+  4  创作相关
