@@ -41,10 +41,9 @@ export const employeesGrid = [
       width: '125',
       textAlign: 'Center' },
 
-      { field: 'UpdateDate',
-      headerText: '更新日期',
+      { field: 'PostsNumber',
+      headerText: '更新数',
       width: '135',
-      format: 'yMd',
       textAlign: 'Center' },
   ];
   
@@ -52,14 +51,35 @@ export const employeesGrid = [
 
 export const employeesData = [
     {
-      Name: 'Nancy Davolio',
+      Name: '巴辣辣',
       Platform: '小红书',
-      Styles: '卡通',
-      FansNumber: '10w',
-      UpdateDate: '01/02/2021',
+      Styles: '卡通 小女孩 教程',
+      FansNumber: '15w+',
+      PostsNumber: '300+',
       EmployeeImage:
       avatar,
     },
+    {
+        Name: '一只巴子',
+        Platform: '小红书',
+        Styles: '人物 女孩头像',
+        FansNumber: '15w+',
+        PostsNumber: '300+',
+        EmployeeImage:
+        avatar,
+    },
+    {
+        Name: '核桃',
+        Platform: '小红书',
+        Styles: '手帐 教程',
+        FansNumber: '5w+',
+        PostsNumber: '300+',
+        EmployeeImage:
+        avatar,
+    },
+   
+ 
+  
 
-
+      
   ];
