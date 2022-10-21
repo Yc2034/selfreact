@@ -15,7 +15,7 @@ export const kanbanGrid = [
   { headerText: '已停更',
     keyField: 'Close',
     allowToggle: true,
-    isExpanded: false  },
+    isExpanded: true  },
 ];
 
 export const kanbanData = [
