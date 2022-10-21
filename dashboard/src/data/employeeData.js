@@ -60,7 +60,7 @@ export const employeesData = [
       avatar,
     },
     {
-        Name: '一只巴子',
+        Name: '一只八子',
         Platform: '小红书',
         Styles: '人物 女孩头像',
         FansNumber: '15w+',
