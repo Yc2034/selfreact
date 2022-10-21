@@ -21,11 +21,11 @@ export const links = [
       title: 'Pages',
       links: [
         {
-          name: 'orders',
+          name: 'hottopics',
           icon: <AiOutlineShoppingCart />,
         },
         {
-          name: 'employees',
+          name: 'vloggers',
           icon: <IoMdContacts />,
         },
         {
