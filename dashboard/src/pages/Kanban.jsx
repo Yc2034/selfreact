@@ -22,6 +22,11 @@ const Kanban = () => (
       </ColumnsDirective>
     </KanbanComponent>
 
+    <h3> 爆款类别 </h3>
+
+
+
+    <h3> 停更类别 </h3>
     
   </div>
 );
