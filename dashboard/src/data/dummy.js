@@ -4,7 +4,7 @@ import { BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft } from 'react-icons/b
 import { MdOutlineSupervisorAccount } from 'react-icons/md';
 import { HiOutlineRefresh } from 'react-icons/hi';
 import { TiTick } from 'react-icons/ti';
-import { GrLocation } from 'react-icons/gr';
+
 import avatar from './avatar.jpg';
 import avatar2 from './avatar2.jpg';
 import avatar3 from './avatar3.png';
@@ -2154,12 +2154,7 @@ const gridEmployeeProfile = (props) => (
     </div>
   );
   
-  const gridEmployeeCountry = (props) => (
-    <div className="flex items-center justify-center gap-2">
-      <GrLocation />
-      <span>{props.Country}</span>
-    </div>
-  );
+
   
 export const employeesGrid = [
     { headerText: 'Employee',
@@ -2176,11 +2171,6 @@ export const employeesGrid = [
       width: '170',
       textAlign: 'Center',
     },
-    { headerText: 'Country',
-      width: '120',
-      textAlign: 'Center',
-      template: gridEmployeeCountry },
-  
     { field: 'HireDate',
       headerText: 'Hire Date',
       width: '135',

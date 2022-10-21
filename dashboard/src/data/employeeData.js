@@ -1,48 +1,65 @@
-import avatar from './avatar.jpg';
-import avatar2 from './avatar2.jpg';
-import avatar3 from './avatar3.png';
-import avatar4 from './avatar4.jpg';
+import avatar from '../images/avatar.png';
+
+
+const gridEmployeeProfile = (props) => (
+    <div className="flex items-center gap-2">
+      <img
+        className="rounded-full w-10 h-10"
+        src={props.EmployeeImage}
+        alt="vlogger"
+      />
+      <p>{props.Name}</p>
+    </div>
+  );
   
+  
+export const employeesGrid = [
+    { headerText: '博主',
+      width: '150',
+      template: gridEmployeeProfile,
+      textAlign: 'Center' },
+
+    { field: 'Name',
+      headerText: '',
+      width: '0',
+      textAlign: 'Center',
+    },
+
+    { field: 'Platform',
+      headerText: '主要平台',
+      width: '170',
+      textAlign: 'Center',
+    },
+
+    { field: 'Styles',
+      headerText: '风格',
+      width: '120',
+      textAlign: 'Center' },
+
+    { field: 'FansNumber',
+      headerText: '粉丝量级',
+      width: '125',
+      textAlign: 'Center' },
+
+      { field: 'UpdateDate',
+      headerText: '更新日期',
+      width: '135',
+      format: 'yMd',
+      textAlign: 'Center' },
+  ];
+  
+   
 
 export const employeesData = [
     {
-      EmployeeID: 1,
       Name: 'Nancy Davolio',
-      Title: 'Sales Representative',
-      HireDate: '01/02/2021',
-      Country: 'USA',
-      ReportsTo: 'Carson',
+      Platform: '小红书',
+      Styles: '卡通',
+      FansNumber: '10w',
+      UpdateDate: '01/02/2021',
       EmployeeImage:
-      avatar3,
+      avatar,
     },
-    {
-      EmployeeID: 2,
-      Name: 'Nasimiyu Danai',
-      Title: 'Marketing Head',
-      HireDate: '01/02/2021',
-      Country: 'USA',
-      ReportsTo: 'Carson',
-      EmployeeImage:
-        avatar3,
-    },
-    {
-      EmployeeID: 3,
-      Name: 'Iulia Albu',
-      Title: 'HR',
-      HireDate: '01/02/2021',
-      Country: 'USA',
-      ReportsTo: 'Carson',
-      EmployeeImage:
-        avatar4,
-    },
-    {
-      EmployeeID: 4,
-      Name: 'Siegbert Gottfried',
-      Title: 'Marketing Head',
-      HireDate: '01/02/2021',
-      Country: 'USA',
-      ReportsTo: 'Carson',
-      EmployeeImage:
-        avatar2,
-    },
+
+
   ];
