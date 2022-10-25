@@ -10,6 +10,7 @@ import { pieChartData}  from '../data/pieChartData';
 import { useStateContext } from '../contexts/ContextProvider';
 import product9 from '../data/product9.jpg';
 
+
 const DropDown = ({ currentMode }) => (
   <div className="w-28 border-1 border-color px-2 py-1 rounded-md">
     <DropDownListComponent id="time" fields={{ text: 'Time', value: 'Id' }} style={{ border: 'none', color: (currentMode === 'Dark') && 'white' }} value="1" dataSource={dropdownData} popupHeight="220px" popupWidth="120px" />
@@ -25,8 +26,10 @@ const Ecommerce = () => {
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center">
           <div className="flex justify-between items-center">
             <div>
-              <p className="font-bold text-gray-400">Fans</p>
-              <p className="text-2xl">$63,448.78</p>
+              <p className="font-bold text-gray-400">小红书粉丝</p>
+              <p className="text-2xl">30800</p>
+              <p className="font-bold text-gray-400">抖音粉丝</p>
+              <p className="text-2xl">3080</p>
             </div>
             <button
               type="button"

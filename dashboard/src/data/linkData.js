@@ -8,17 +8,17 @@ import { GiLouvrePyramid } from 'react-icons/gi';
 
 export const links = [
     {
-      title: 'Dashboard',
+      title: 'Fans Dashboard',
       links: [
         {
-          name: 'ecommerce',
+          name: 'dashboard',
           icon: <FiShoppingBag />,
         },
       ],
     },
   
     {
-      title: 'Pages',
+      title: 'Hot Topics',
       links: [
         {
           name: 'hottopics',
