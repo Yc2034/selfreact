@@ -28,10 +28,6 @@ export const links = [
           name: 'vloggers',
           icon: <IoMdContacts />,
         },
-        {
-          name: 'customers',
-          icon: <RiContactsLine />,
-        },
       ],
     },
     {
