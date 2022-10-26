@@ -1,9 +1,7 @@
-import { AiOutlineCalendar, AiOutlineShoppingCart, AiOutlineAreaChart, AiOutlineBarChart, AiOutlineStock } from 'react-icons/ai';
-import { FiShoppingBag, FiEdit, FiPieChart } from 'react-icons/fi';
+import {  AiOutlineShoppingCart,  AiOutlineStock } from 'react-icons/ai';
+import { FiShoppingBag, FiPieChart } from 'react-icons/fi';
 import { BsKanban, BsBarChart } from 'react-icons/bs';
-import { BiColorFill } from 'react-icons/bi';
 import { IoMdContacts } from 'react-icons/io';
-import { RiContactsLine, RiStockLine } from 'react-icons/ri';
 import { GiLouvrePyramid } from 'react-icons/gi';
 
 export const links = [
