@@ -17,6 +17,8 @@ const DropDown = ({ currentMode }) => (
   </div>
 );
 
+import { RedFans,DouyinFans } from '../data/vlogger/fansdashboard';
+
 const Ecommerce = () => {
   const { currentColor, currentMode } = useStateContext();
 
@@ -27,9 +29,9 @@ const Ecommerce = () => {
           <div className="flex justify-between items-center">
             <div>
               <p className="font-bold text-gray-400">小红书粉丝</p>
-              <p className="text-2xl">30800</p>
+              <p className="text-2xl">{RedFans}</p>
               <p className="font-bold text-gray-400">抖音粉丝</p>
-              <p className="text-2xl">3080</p>
+              <p className="text-2xl">{DouyinFans}</p>
             </div>
             <button
               type="button"
