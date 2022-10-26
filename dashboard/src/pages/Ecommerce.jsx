@@ -5,9 +5,11 @@ import { IoIosMore } from 'react-icons/io';
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
 
 import {  Pie, Button, LineChart, SparkLine } from '../components';
-import { earningData, medicalproBranding, recentTransactions, weeklyStats, dropdownData, SparklineAreaData } from '../data/dummy';
+import {  medicalproBranding, recentTransactions, weeklyStats, dropdownData, SparklineAreaData } from '../data/dummy';
 import { pieChartData}  from '../data/pieChartData';
 import { useStateContext } from '../contexts/ContextProvider';
+import { fansData } from '../data/vlogger/fansdashboard';
+
 import product9 from '../data/product9.jpg';
 
 
@@ -44,7 +46,7 @@ const Ecommerce = () => {
  
         </div>
         <div className="flex m-3 flex-wrap justify-center gap-1 items-center">
-          {earningData.map((item) => (
+          {fansData.map((item) => (
             <div key={item.title} className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl ">
               <button
                 type="button"
