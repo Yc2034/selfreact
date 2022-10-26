@@ -1,5 +1,5 @@
-import product1 from '../product1.jpg';
-import product2 from '../product2.jpg';
+import product1 from '../../assets/product1.jpg';
+import product2 from '../../assets/product2.jpg';
 
 
  

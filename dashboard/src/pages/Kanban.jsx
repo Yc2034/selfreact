@@ -2,7 +2,7 @@ import React from 'react';
 import { KanbanComponent, ColumnsDirective, ColumnDirective } from '@syncfusion/ej2-react-kanban';
 import { CarouselComponent, CarouselItemsDirective, CarouselItemDirective } from "@syncfusion/ej2-react-navigations";
 
-import { kanbanData, kanbanGrid } from '../data/topicsData';
+import { kanbanData, kanbanGrid } from '../data/charts/topicsData';
 import { Header } from '../components';
 
 const Kanban = () => (

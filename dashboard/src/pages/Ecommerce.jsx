@@ -3,11 +3,11 @@ import { BsSignpostSplit } from 'react-icons/bs';
 import { IoIosMore } from 'react-icons/io';
 import {  Pie, Button, LineChart, SparkLine } from '../components';
 
-import { pieChartData, pieChartData2}  from '../data/pieChartData';
+import { pieChartData, pieChartData2}  from '../data/charts/pieChartData';
 import { useStateContext } from '../contexts/ContextProvider';
 import { fansData, weekReportHighlight } from '../data/vlogger/fansdashboard';
 
-import product9 from '../data/product9.jpg';
+import product9 from '../assets/articleheadpic.jpg';
 import { RedFans,DouyinFans, SparklineAreaData, weeklyStats } from '../data/vlogger/fansdashboard';
 
 

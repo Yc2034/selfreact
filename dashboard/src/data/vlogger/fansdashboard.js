@@ -48,7 +48,7 @@ export const weekReportHighlight = [
     {
       icon: <TiTick />,
       amount: '2021/02/03',
-      title: '节日热点',
+      title: '节日热点2',
       desc: '牛年壁纸',
       iconColor: 'rgb(228, 106, 118)',
       iconBg: 'rgb(255, 244, 229)',
@@ -57,7 +57,7 @@ export const weekReportHighlight = [
     {
         icon: <TiTick />,
         amount: '2021/02/03',
-        title: '节日热点',
+        title: '节日热点3',
         desc: '牛年壁纸',
         iconColor: 'rgb(228, 106, 118)',
         iconBg: 'rgb(255, 244, 229)',

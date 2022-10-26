@@ -1,7 +1,7 @@
 import React from 'react';
 import { GridComponent, ColumnsDirective, ColumnDirective, Resize, Sort, ContextMenu, Filter, Page, ExcelExport, PdfExport, Edit, Inject } from '@syncfusion/ej2-react-grids';
 
-import {  contextMenuItems, ordersGrid } from '../data/hotTopicsData';
+import {  contextMenuItems, ordersGrid } from '../data/schemas/hotTopicsSchema';
 import { ordersData} from '../data/vlogger/notetopic';
 import { Header } from '../components';
 

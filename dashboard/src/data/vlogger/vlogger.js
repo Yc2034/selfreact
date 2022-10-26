@@ -1,4 +1,4 @@
-import avatar from '../../images/avatar.png';
+import avatar from '../../assets/avatar.png';
 
 export const employeesData = [
     {

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { pieChartData2 } from '../../data/pieChartData';
+import { pieChartData2 } from '../../data/charts/pieChartData';
 import { ChartsHeader, Pie as PieChart } from '../../components';
 
 const Pie2 = () => (

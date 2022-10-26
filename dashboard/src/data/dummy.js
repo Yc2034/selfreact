@@ -3,18 +3,9 @@ import {  FiBarChart, FiCreditCard, FiStar, FiShoppingCart } from 'react-icons/f
 import { BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft } from 'react-icons/bs';
 
 
-import avatar from './avatar.jpg';
-import avatar2 from './avatar2.jpg';
-import avatar3 from './avatar3.png';
-import avatar4 from './avatar4.jpg';
-import product1 from './product1.jpg';
-import product2 from './product2.jpg';
-import product3 from './product3.jpg';
-import product4 from './product4.jpg';
-import product5 from './product5.jpg';
-import product6 from './product6.jpg';
-import product7 from './product7.jpg';
-import product8 from './product8.jpg';
+
+import avatar from '../assets/avatar.png';
+
 
 
 
@@ -102,21 +93,21 @@ export const LinePrimaryYAxis = {
 export const chatData = [
   {
     image:
-      avatar2,
+      avatar,
     message: 'Roman Joined the Team!',
     desc: 'Congratulate him',
     time: '9:08 AM',
   },
   {
     image:
-      avatar3,
+      avatar,
     message: 'New message received',
     desc: 'Salma sent you new message',
     time: '11:56 AM',
   },
   {
     image:
-      avatar4,
+      avatar,
     message: 'New Payment received',
     desc: 'Check your earnings',
     time: '4:39 AM',
@@ -133,44 +124,7 @@ export const chatData = [
 
 
 
-export const productsPerformance = [
-  {
-    image:
-      product5,
-    title: 'Is it good butterscotch ice-cream?',
-    desc: 'Ice-Cream, Milk, Powder',
-    rating: 'Good',
-    itemSold: '65%',
-    earningAmount: '$546,000',
-  },
-  {
-    image:
-      product6,
-    title: 'Supreme fresh tomato available',
-    desc: 'Market, Mall',
-    rating: 'Excellent',
-    itemSold: '98%',
-    earningAmount: '$780,000',
-  },
-  {
-    image:
-      product7,
-    title: 'Red color candy from Gucci',
-    desc: 'Chocolate, Yummy',
-    rating: 'Average',
-    itemSold: '46%',
-    earningAmount: '$457,000',
-  },
-  {
-    image:
-      product4,
-    title: 'Stylish night lamp for night',
-    desc: 'Electric, Wire, Current',
-    rating: 'Poor',
-    itemSold: '23%',
-    earningAmount: '$123,000',
-  },
-];
+
 
 export const medicalproBranding = {
   data: [
@@ -200,19 +154,19 @@ export const medicalproBranding = {
   leaders: [
     {
       image:
-        avatar2,
+        avatar,
     },
     {
       image:
-        avatar3,
+        avatar,
     },
     {
       image:
-        avatar2,
+        avatar,
     },
     {
       image:
-        avatar4,
+        avatar,
     },
     {
       image:

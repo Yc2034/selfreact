@@ -1,7 +1,7 @@
 import React from 'react';
 import { GridComponent, Inject, ColumnsDirective, ColumnDirective, Search, Page } from '@syncfusion/ej2-react-grids';
 
-import { employeesGrid } from '../data/employeeData';
+import { employeesGrid } from '../data/schemas/vloggerSchema';
 import { employeesData } from '../data/vlogger/vlogger';
 import { Header } from '../components';
 
