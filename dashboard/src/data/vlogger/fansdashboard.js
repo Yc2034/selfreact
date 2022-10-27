@@ -6,8 +6,8 @@ import {  FiBarChart, FiCreditCard, FiStar, FiShoppingCart } from 'react-icons/f
 import { BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft } from 'react-icons/bs';
 import { TiTick } from 'react-icons/ti';
 
-export const RedFans  = '30,831';
-export const DouyinFans = '3,770';
+export const RedFans  = '30,844';
+export const DouyinFans = '3,792';
 
 const numRedLikes = '151,000';
 const numRedPosts = '87';
@@ -19,50 +19,50 @@ const numDouyinPosts = '59';
 
 export const weekReportHighlight = [
     {
-      icon: <BsCurrencyDollar />,
-      amount: '2021/09/12',
-      title: '爆款笔记',
-      desc: '桃花',
-      iconColor: '#03C9D7',
-      iconBg: '#E5FAFB',
-      pcColor: 'green-600',
-    },
-    {
-      icon: <BsShield />,
-      amount: '2022/02/03',
-      title: '活动推广',
-      desc: '宫崎骏',
-      iconColor: 'rgb(0, 194, 146)',
-      iconBg: 'rgb(235, 250, 242)',
-      pcColor: 'red-600',
-    },
-    {
-      icon: <FiCreditCard />,
-      amount: '2021/02/03',
-      title: '节日热点',
-      desc: '牛年壁纸',
+      icon: <TiTick />,
+      amount: '2022/04/15',
+      title: '三丽鸥插画',
+      desc: '三丽鸥壁纸系列',
       iconColor: 'rgb(255, 244, 229)',
       iconBg: 'rgb(254, 201, 15)',
       pcColor: 'green-600',
     },
     {
       icon: <TiTick />,
-      amount: '2021/02/03',
-      title: '节日热点2',
-      desc: '牛年壁纸',
+      amount: '2021/06/14',
+      title: '重绘我的童年',
+      desc: '出圈+被运营注意到',
       iconColor: 'rgb(228, 106, 118)',
       iconBg: 'rgb(255, 244, 229)',
       pcColor: 'green-600',
     },
     {
-        icon: <TiTick />,
-        amount: '2021/02/03',
-        title: '节日热点3',
-        desc: '牛年壁纸',
-        iconColor: 'rgb(228, 106, 118)',
-        iconBg: 'rgb(255, 244, 229)',
-        pcColor: 'green-600',
-      },
+      icon: <TiTick />,
+      amount: '2021/05/28',
+      title: '悬崖上的金鱼姬',
+      desc: '运营活动/小红书火抖音凉',
+      iconColor: 'rgb(228, 106, 118)',
+      iconBg: 'rgb(255, 244, 229)',
+      pcColor: 'green-600',
+    },
+    {
+      icon: <BsShield />,
+      amount: '2021/03/29',
+      title: 'Procreate gif小猫动画',
+      desc: 'Procreate教程/抖音火小红书不火',
+      iconColor: 'rgb(0, 194, 146)',
+      iconBg: 'rgb(235, 250, 242)',
+      pcColor: 'red-600',
+    },
+    {
+      icon: <BsShield />,
+      amount: '2021/02/14',
+      title: '玫瑰花/铃兰',
+      desc: '花卉系列',
+      iconColor: '#03C9D7',
+      iconBg: '#E5FAFB',
+      pcColor: 'green-600',
+    },
 
   ];
 
@@ -79,16 +79,16 @@ export const weekReportHighlight = [
   
   export const weeklyStats = [
     {
-      icon: <FiShoppingCart />,
-      amount: '23000',
-      title: '最多赞',
-      desc: '三丽鸥 2022/02/01',
+      icon: <FiStar />,
+      amount: '25,200+',
+      title: '最多赞+收藏',
+      desc: '三丽鸥(2) 2022/04/15',
       iconBg: '#FB9678',
       pcColor: 'red-600',
     },
     {
-      icon: <FiStar />,
-      amount: '-$560',
+      icon: <FiShoppingCart />,
+      amount: '¥66*100',
       title: '最多收入',
       desc: '直播课 2021/08/21',
       iconBg: 'rgb(254, 201, 15)',
@@ -96,9 +96,9 @@ export const weekReportHighlight = [
     },
     {
       icon: <BsChatLeft />,
-      amount: '7000',
-      title: '最多收藏',
-      desc: '重绘童年',
+      amount: '420+',
+      title: '最多评论',
+      desc: '三丽鸥(2) 2022/04/15',
       iconBg: '#00C292',
       pcColor: 'green-600',
     },
