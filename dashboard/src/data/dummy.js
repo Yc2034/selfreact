@@ -89,35 +89,41 @@ export const LinePrimaryYAxis = {
   minorTickLines: { width: 0 },
 };
 
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = yyyy+ '/' + mm + '/' + dd;
 
 export const chatData = [
   {
     image:
       avatar,
-    message: 'Roman Joined the Team!',
-    desc: 'Congratulate him',
-    time: '9:08 AM',
+    message: 'Journey Continues',
+    desc: today,
+    time: today,
   },
   {
     image:
       avatar,
-    message: 'New message received',
-    desc: 'Salma sent you new message',
-    time: '11:56 AM',
+    message: '第10000粉丝',
+    desc: '首次破万粉丝',
+    time: '2021/05/28',
   },
   {
     image:
       avatar,
-    message: 'New Payment received',
-    desc: 'Check your earnings',
-    time: '4:39 AM',
+    message: '第一篇爆火笔记',
+    desc: '牛年原创壁纸',
+    time: '2021/02/02',
   },
   {
     image:
       avatar,
-    message: 'Jolly completed tasks',
-    desc: 'Assign her new tasks',
-    time: '1:12 AM',
+    message: '第一篇小红书',
+    desc: '新年壁纸',
+    time: '2020/12/25',
   },
 ];
 

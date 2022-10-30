@@ -27,9 +27,7 @@ const Notification = () => {
             </div>
           </div>
         ))}
-        <div className="mt-5">
-          <Button color="white" bgColor={currentColor} text="See all notifications" borderRadius="10px" width="full" />
-        </div>
+       
       </div>
     </div>
   );
