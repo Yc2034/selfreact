@@ -11,8 +11,6 @@ import product9 from '../assets/articleheadpic.jpg';
 import { RedFans,DouyinFans, SparklineAreaData, weeklyStats } from '../data/vlogger/fansdashboard';
 
 
-
-
 const Ecommerce = () => {
   const { currentColor, currentMode } = useStateContext();
 
@@ -187,14 +185,7 @@ const Ecommerce = () => {
               低端品牌要欢快，就是乐。
               入门级品牌要屌，愤怒，挑翻操蛋的世界。
               </p>
-              <div className="mt-3">
-                <Button
-                  color="white"
-                  bgColor={currentColor}
-                  text="Read More"
-                  borderRadius="10px"
-                />
-              </div>
+    
             </div>
           </div>
         </div>
