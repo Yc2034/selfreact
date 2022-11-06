@@ -6,8 +6,8 @@ import {  FiBarChart, FiCreditCard, FiStar, FiShoppingCart } from 'react-icons/f
 import { BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft } from 'react-icons/bs';
 import { TiTick } from 'react-icons/ti';
 
-export const RedFans  = '30,844';
-export const DouyinFans = '3,792';
+export const RedFans  = '30,930';
+export const DouyinFans = '4,055';
 
 const numRedLikes = '151,000';
 const numRedPosts = '87';
